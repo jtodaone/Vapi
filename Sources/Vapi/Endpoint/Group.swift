@@ -16,12 +16,3 @@ struct Group: Block {
         blocks.register(at: newRoutes)
     }
 }
-
-@resultBuilder
-enum GroupBuilder {
-    static func buildBlock(_ components: Block...) -> [Block] {
-        return components
-    }
-}
-
-
